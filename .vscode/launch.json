@@ -1,0 +1,38 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CertificacaoNlwApplication",
+      "request": "launch",
+      "mainClass": "com.andrepimentel.certificacao_nlw.CertificacaoNlwApplication",
+      "projectName": "certificacao_nlw"
+    },
+    {
+      "type": "java",
+      "name": "CreateSeed",
+      "request": "launch",
+      "mainClass": "com.andrepimentel.certificacao_nlw.seed.CreateSeed",
+      "projectName": "certificacao_nlw"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/askel/OneDrive/Documentos/GitHub/certificacao_nlw/certificacao_nlw/src/test/java/com/andrepimentel",
+      "program": "c:/Users/askel/OneDrive/Documentos/GitHub/certificacao_nlw/certificacao_nlw/src/test/java/com/andrepimentel/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
